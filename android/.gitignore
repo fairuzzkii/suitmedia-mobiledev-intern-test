@@ -1,0 +1,26 @@
+# Flutter/Dart general
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+build/
+.idea/
+*.iml
+
+# Android
+.gradle/
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+android/key.properties
+**/*.keystore
+**/*.jks
+android/.cxx/
+
+# Keystore note
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/docs/deployment/android#signing-the-app
