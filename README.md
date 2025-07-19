@@ -1,16 +1,88 @@
-# suitmedia_mobile_interntest
+# Suitmedia Mobile Developer Intern Test
 
-A new Flutter project.
+This Flutter application was built to complete the **Suitmedia Mobile Developer Intern Test**.  
+It uses **Flutter SDK 3.8.1** and **Provider** for state management.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Demo & Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+https://user-images.githubusercontent.com/your-username/demo-video.mp4
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Palindrome Page | Name Selection Page | Detail Page |
+|-----------------|---------------------|-------------|
+| ![1](screenshots/1.png) | ![2](screenshots/2.png) | ![3](screenshots/3.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧩 Features Overview
+
+### 🔹 First Screen (Palindrome Check)
+- Contains **2 input fields**:
+  - Name input
+  - Sentence input (for palindrome check)
+- **Check Button**: Displays dialog with:
+  - `"isPalindrome"` if the sentence is a palindrome
+  - `"not palindrome"` otherwise  
+  Examples:
+  - `kasur rusak` → ✅ isPalindrome
+  - `step on no pets` → ✅ isPalindrome
+  - `suitmedia` → ❌ not palindrome
+- **Next Button**: Navigates to Second Screen
+
+---
+
+### 🔹 Second Screen (Welcome Page)
+- Displays static text: `Welcome`
+- Shows:
+  - Name entered from First Screen
+  - Selected User's Name (initially empty)
+- **Choose a User Button**: Navigates to Third Screen
+
+---
+
+### 🔹 Third Screen (User List)
+- Fetches user list from `https://reqres.in/api/users`
+- Shows: `avatar`, `first_name`, `last_name`, `email`
+- Features:
+  - Pull to refresh
+  - Pagination when scrolling to bottom (`page` & `per_page` query params)
+  - Empty state UI if no data is returned
+- On selecting a user:
+  - Returns to **Second Screen**
+  - Updates “Selected User Name” label (without navigating to a new screen)
+
+---
+
+## 🛠 Tech Stack
+
+- **Flutter SDK**: 3.32.0+
+- **State Management**: Provider
+- **HTTP Client**: `http`
+- **Routing**: Named routes
+- **UI**: Material design components
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- VS Code / Android Studio
+- Emulator or physical device
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/fairuzzkii/suitmedia-mobiledev-intern-test.git
+
+# Navigate to the project folder
+cd suitmedia-mobiledev-intern-test
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
