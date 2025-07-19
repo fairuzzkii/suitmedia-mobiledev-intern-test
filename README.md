@@ -60,6 +60,7 @@ https://user-images.githubusercontent.com/your-username/demo-video.mp4
 - **State Management**: Provider
 - **HTTP Client**: `http`
 - **UI**: Material design components
+- **API**: Uses Reqres API to fetch user data
 
 ---
 
