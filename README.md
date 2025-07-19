@@ -9,7 +9,7 @@ It uses **Flutter SDK 3.8.1** and **Provider** for state management.
 
 https://user-images.githubusercontent.com/your-username/demo-video.mp4
 
-| Palindrome Page | Name Selection Page | Detail Page |
+| First Screen | Second Screen| Third Screen |
 |-----------------|---------------------|-------------|
 | ![1](screenshots/1.png) | ![2](screenshots/2.png) | ![3](screenshots/3.png) |
 
@@ -56,15 +56,21 @@ https://user-images.githubusercontent.com/your-username/demo-video.mp4
 
 ## 🛠 Tech Stack
 
-- **Flutter SDK**: 3.32.0+
+- **Flutter SDK**: 3.8.1
 - **State Management**: Provider
 - **HTTP Client**: `http`
-- **Routing**: Named routes
 - **UI**: Material design components
 
 ---
 
-## 🚀 Getting Started
+## 🧪 Run Tests
+
+To run unit and widget tests, use the following command:
+
+```bash
+flutter test
+
+## 🚀 **Getting Started**
 
 ### Prerequisites
 
