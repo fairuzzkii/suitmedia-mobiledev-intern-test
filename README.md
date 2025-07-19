@@ -10,9 +10,13 @@ It uses **Flutter SDK 3.8.1** and **Provider** for state management.
 [![Watch the demo](https://img.youtube.com/vi/0jNznlFy1fI/0.jpg)](https://www.youtube.com/watch?v=0jNznlFy1fI)
 
 
-| First Screen | Second Screen| Third Screen |
-|-----------------|---------------------|-------------|
-| ![1](screenshots/1.png) | ![2](screenshots/2.png) | ![3](screenshots/3.png) |
+## 📸 Screenshots
+
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/924b4ae0-bef5-4afa-9584-c3a46ec1e379" width="30%" />
+  <img src="https://github.com/user-attachments/assets/2c129bb3-d7ee-4878-8d9d-f6ef7c377f11" width="30%" />
+  <img src="https://github.com/user-attachments/assets/fc5b53dc-3b8e-4934-9b64-27857b612617" width="30%" />
+</p>
 
 ---
 
