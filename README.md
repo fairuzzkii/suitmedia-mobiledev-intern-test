@@ -7,7 +7,8 @@ It uses **Flutter SDK 3.8.1** and **Provider** for state management.
 
 ## 📱 Demo & Screenshots
 
-https://user-images.githubusercontent.com/fairuzzkii/demo(1).mp4
+[![Watch the demo](https://img.youtube.com/vi/0jNznlFy1fI/0.jpg)](https://www.youtube.com/watch?v=0jNznlFy1fI)
+
 
 | First Screen | Second Screen| Third Screen |
 |-----------------|---------------------|-------------|
