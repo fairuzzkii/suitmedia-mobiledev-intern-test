@@ -63,14 +63,7 @@ https://user-images.githubusercontent.com/your-username/demo-video.mp4
 
 ---
 
-## 🧪 Run Tests
-
-To run unit and widget tests, use the following command:
-
-```bash
-flutter test
-
-## 🚀 **Getting Started**
+## 🚀 Getting Started
 
 ### Prerequisites
 
