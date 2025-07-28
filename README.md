@@ -58,16 +58,6 @@ It uses **Flutter SDK 3.8.1** and **Provider** for state management.
 
 ---
 
-## 🛠 Tech Stack
-
-- **Flutter SDK**: 3.8.1
-- **State Management**: Provider
-- **HTTP Client**: `http`
-- **UI**: Material design components
-- **API**: Uses Reqres API to fetch user data
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
