@@ -56,7 +56,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
     });
     
     // 
-    Future.delayed(const Duration(milliseconds: 500), () {
+    Future.delayed(const Duration(milliseconds: 400), () {
       Provider.of<AppProvider>(
         context,
         listen: false,
@@ -123,7 +123,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
         builder: (context, provider, child) {
 
           if (provider.isLoading && provider.users.isEmpty) {
-            return _buildLoadingIndicator(text: 'Loading users...');
+            return _buildLoadingIndicator(text: 'Loading users....');
           }
 
 
@@ -135,7 +135,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
                   const Icon(Icons.error_outline, size: 64, color: Colors.grey),
                   const SizedBox(height: 16),
                   Text(
-                    'Error loading users',
+                    'Error loading users!',
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
